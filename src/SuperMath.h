@@ -1,7 +1,7 @@
 #include <iostream>
 namespace {
 
-    int MaxOf2Number(int a, int b){
+int MaxOf2Number(int a, int b){
 
       if (a > b){
 
@@ -11,7 +11,6 @@ namespace {
       }
       
     }
-
 int MinOf2Number(int a, int b){
 
       if (a < b){
