@@ -1,5 +1,9 @@
 #pragma once
 #include <iostream>
+
+/*
+       - Create by ( Houssam Miliani ) .
+*/
 namespace SuperMath{
 
 int MaxOf2(int a, int b){
@@ -36,7 +40,24 @@ int MaxOf3(int a, int b, int c){
             
       }
 
-
+int SigNum(int a){
+ 
+      if (a == 0){
+            return "zero";
+      }else {
+            if (a < 0){
+                  return "Positive";
+                  
+            }else {
+                  return "Negative";
+            }
+      }
+      /* shortcuts ( Ternary Operator ) . 
+      string Result = (num == 0) ? "zero " : ((num > 0) ? "Positive " : "Negative");
+      cout << Result ;
+      */
+}
+      
 }
 
 
