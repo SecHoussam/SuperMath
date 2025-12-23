@@ -2,7 +2,7 @@
 #include <iostream>
 namespace SuperMath{
 
-int MaxOf2Number(int a, int b){
+int MaxOf2(int a, int b){
       if (a > b){
             return a;
       }else {
@@ -10,7 +10,7 @@ int MaxOf2Number(int a, int b){
       }
 }
 
-int MinOf2Number(int a, int b){
+int MinOf2(int a, int b){
       if (a < b){
             return a;
       }else {
@@ -18,10 +18,26 @@ int MinOf2Number(int a, int b){
       }
 }
 
+int MaxOf3(int a, int b, int c){
+
+      if (a > b){
+            if ( a > c){
+                  return a;
+            }else {
+                  return c;
+            }
+            
+      }else {
+            if (b > c){
+                  return b;
+            }else {
+                  return c;
+            }
+            
+      }
 
 
-
-
+}
 
 
 
