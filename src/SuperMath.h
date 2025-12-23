@@ -1,23 +1,29 @@
+#pragma once
 #include <iostream>
 namespace SuperMath{
 
 int MaxOf2Number(int a, int b){
-
       if (a > b){
-
-        return a;
+            return a;
       }else {
-        return b;
+            return b;
       }
-      
-    }
+}
+
 int MinOf2Number(int a, int b){
-
       if (a < b){
-
-        return a;
+            return a;
       }else {
-        return b;
-      } 
-    }
+            return b;
+      }
+}
+
+
+
+
+
+
+
+
+
 }
