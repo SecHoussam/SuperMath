@@ -1,5 +1,5 @@
 #include <iostream>
-namespace {
+namespace SuperMath{
 
 int MaxOf2Number(int a, int b){
 
