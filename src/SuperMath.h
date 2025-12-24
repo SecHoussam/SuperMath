@@ -4,7 +4,8 @@
 /*
        - Create by ( Houssam Miliani ) .
 */
-namespace SuperMath{
+
+namespace Basic {
 
 int MaxOf2(int a, int b){
       if (a > b){
@@ -37,8 +38,26 @@ int MaxOf3(int a, int b, int c){
             }else {
                   return c;
             }
-            
       }
+}
+
+int MinxOf3(int a, int b, int c){
+
+      if (a < b){
+            if ( a < c){
+                  return a;
+            }else {
+                  return c;
+            }
+            
+      }else {
+            if (b < c){
+                  return b;
+            }else {
+                  return c;
+            }
+      }
+}
 
 int SigNum(int a){
  
@@ -60,4 +79,24 @@ int SigNum(int a){
       
 }
 
+
+// Circle Area
+namespace Circle{
+
+
+}
+
+
+// Triangle Area
+namespace Triangle {
+
+
+
+}
+
+// Rectangle Area 
+namespace Rectangle {
+
+
+}
 
